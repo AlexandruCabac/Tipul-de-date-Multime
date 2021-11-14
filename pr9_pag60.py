@@ -1,0 +1,6 @@
+a=set(input().split(", "))
+b=set(input().split(", "))
+print(a.intersection(b),"intersectia multimilor")
+print(a.union(b),"reuniunea multimilor")
+print(a.difference(b),"diferenta A si B")
+print(b.difference(a),"diferenta B si A")
